@@ -1,0 +1,5 @@
+# バージョンは固定。更新時は `pip install -U` してから `pip freeze` で貼り直し、
+# `pip-audit`（または `uv pip audit`）で既知の脆弱性を確認すること。
+streamlit==1.63.0
+google-genai==2.22.0
+python-dotenv==1.2.3
